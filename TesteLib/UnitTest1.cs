@@ -9,8 +9,6 @@ namespace TesteLib
         public void Test1()
         {
             Assert.Equal(10, 10);
-
-
         }
     }
 }
