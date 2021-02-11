@@ -4,15 +4,11 @@ namespace UpperString
 {
     public static class StringLibrary
     {
-        public static string StringToUpper(this string str)
+        public static string StringToUpper(string str)
         {
-            if (string.IsNullOrWhiteSpace(str))
-            {
-                return "";
+ 
+            return str.ToUpper();
 
-            }
-            string upperString = str.ToUpper();
-            return upperString;
         }
     }
 }
